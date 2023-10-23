@@ -9,7 +9,10 @@ export default function Details() {
             <div className="row justify-content-between">
               <div className="col-xl-3 col-lg-5 col-md-4 col-sm-6">
                 <div className="single-footer-caption mb-50">
-                  <div className="single-footer-caption mb-30">
+                  <div
+                    className="single-footer-caption mb-30"
+                    id="logo_socialicons"
+                  >
                     {/* <div className="footer-logo mb-25"> */}
                     <div className="footer-logo">
                       <a href="#">
@@ -57,7 +60,9 @@ export default function Details() {
                           <path d="m21.6 9.742-9.6 4.8-9.6-4.8V16.8a2.4 2.4 0 0 0 2.4 2.4h14.4a2.4 2.4 0 0 0 2.4-2.4V9.742Z"></path>
                         </svg>
                         <p>
-                          <a href="">lyallpurfashionofficial@gmail.com</a>
+                          <a href="mailto:lyallpurfashionofficial@gmail.com">
+                            lyallpurfashionofficial@gmail.com
+                          </a>
                         </p>
                       </div>
                       <div className="footer-pera" id="location_mail_phone">
@@ -127,7 +132,7 @@ export default function Details() {
                         <a href="#">Exchanges &amp; Returns</a>
                       </li>
                       <li>
-                        <a href="#">FAQS</a>
+                        <a href="#">FAQs</a>
                       </li>
                       <li>
                         <a href="#">Contact Us</a>
