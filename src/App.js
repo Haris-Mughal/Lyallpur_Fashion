@@ -1,24 +1,19 @@
 import "./App.scss";
-import Navbar from "./components/Header/Navbar";
-import Topbar from "./components/Header/Topbar";
-import Details from "./components/Footer/Details";
-import Footer from "./components/Footer/Footer";
-import AboutUs from "./pages/AboutUs";
-import ExchangeAndReturn from "./pages/ExchangeAndReturn";
-import PrivacyPolicy from "./pages/PrivacyPolicy";
+import Header from "./components/Header";
+import Main from "./pages/Main";
+import Footer from "./components/Footer";
+// import { Header } from "antd/es/layout/layout";
 
 function App() {
   return (
     <>
       <header>
-        <Navbar />
-        <Topbar />
-        <AboutUs />
-        <ExchangeAndReturn />
-        <PrivacyPolicy />
+        <Header />
       </header>
+      <main>
+        <Main />
+      </main>
       <footer>
-        <Details />
         <Footer />
       </footer>
     </>

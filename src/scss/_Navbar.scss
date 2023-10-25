@@ -1,0 +1,91 @@
+form {
+        input {
+            margin: 0;
+        width: 100%;
+        padding: 15px;
+        border-width: .5px;
+        border-color: rgba(0, 0, 0, 0.352);
+        border-radius: 40px;
+    }
+}
+.signin {
+    a {
+        background-color: red;
+        color: white;
+        padding: 15px;
+        border-radius: 25px;
+        font-weight: bold;
+        border: 0;
+        text-decoration: none;
+    }
+    a:hover {
+        background-color: rgb(190, 1, 1);
+        color: rgba(255, 255, 255, 0.811);
+        padding: 15px;
+        border-radius: 25px;
+        font-weight: bold;
+        border: 0;
+        text-decoration: none;
+    }
+}
+#etc {
+    display: flex;
+    flex-direction: row;
+    ul {
+        list-style-type: none;
+        li {
+            a {
+                
+        text-decoration: none;
+        color: black;
+            }
+        }
+        
+    }
+}
+
+#searchBox {
+    display: flex;
+    align-items: center;
+    // position: relative;
+    border: 0.5px solid gray;
+    border-radius: 7px;
+}
+
+// #searchBox div svg {
+#searchBox svg {
+    // position: absolute;
+    // top: 50%;
+    right: 10px;
+    // transform: translateY(-50%);
+  }
+#search_input {
+    padding: 8px;
+    border: 0;
+    border-color: transparent;
+    // max-width: 40%;
+}
+#search_input:after {
+    
+    border: 0;
+}
+#search_input:hover {
+    border: 0;
+
+}
+
+#trackCartPro {
+    display: flex;
+    li {
+        margin-left: 2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
