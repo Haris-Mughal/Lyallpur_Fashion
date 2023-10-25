@@ -47,32 +47,11 @@ form {
 #searchBox {
     display: flex;
     align-items: center;
-    // position: relative;
+    width: 40vw;
     border: 0.5px solid gray;
     border-radius: 7px;
 }
 
-// #searchBox div svg {
-#searchBox svg {
-    // position: absolute;
-    // top: 50%;
-    right: 10px;
-    // transform: translateY(-50%);
-  }
-#search_input {
-    padding: 8px;
-    border: 0;
-    border-color: transparent;
-    // max-width: 40%;
-}
-#search_input:after {
-    
-    border: 0;
-}
-#search_input:hover {
-    border: 0;
-
-}
 
 #trackCartPro {
     display: flex;
@@ -80,11 +59,20 @@ form {
         margin-left: 2rem;
     }
 }
+.header-area {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 100000;
+    background-color: white;
+}
 
-
-
-
-
+#topbar {
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    background-color: white;
+}
 
 
 
