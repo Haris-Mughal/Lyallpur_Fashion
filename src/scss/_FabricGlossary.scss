@@ -1,0 +1,21 @@
+.image-container, #glossayImages {
+    background: url(https://cdn.shopify.com/s/files/1/1592/0041/files/FABRIC-GLOSSARY-BANNER.jpg?v=1683614724);
+    background-size: cover;
+    position: relative;
+    height: 400px;
+    width: 100%;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    #fabric_glossary {
+        color: rgba(0, 0, 0, 0.537) !important;
+        border: 1px solid transparent;
+        padding: 8px 16px;
+        background-color: rgba(255, 255, 255, 0.385);
+
+    }
+}
+

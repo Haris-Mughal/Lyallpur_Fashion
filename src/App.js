@@ -1,7 +1,7 @@
 import "./App.scss";
 import Header from "./components/Header";
-import Main from "./pages/Main";
 import Footer from "./components/Footer";
+import FooterComponents from "./pages/FooterComponents";
 // import { Header } from "antd/es/layout/layout";
 
 function App() {
@@ -10,9 +10,11 @@ function App() {
       <header>
         <Header />
       </header>
+
       <main>
-        <Main />
+        <FooterComponents />
       </main>
+
       <footer>
         <Footer />
       </footer>
