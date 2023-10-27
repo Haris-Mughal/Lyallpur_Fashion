@@ -170,7 +170,7 @@ export default function Details() {
                         <a href="#">Privacy Policy</a>
                       </li>
                       <li>
-                        <a href="#">Store Locator</a>
+                        <a href="#">Store Location</a>
                       </li>
                       <li>
                         <a href="#">Fabric Glossary</a>

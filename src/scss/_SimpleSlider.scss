@@ -1,0 +1,22 @@
+/* SimpleSlider.css */
+.slider-container {
+  width: 100%;
+  max-width: 100vw;
+  height: 80vh;
+  overflow: hidden;
+}
+
+.slider-container img {
+  width: 100%;
+  height: 100%;
+}
+/* Hide the arrow icons */
+.slick-prev,
+.slick-next {
+  display: none !important;
+}
+
+/* Adjust the positioning if necessary */
+.slick-slider {
+  margin: 0 auto;
+}

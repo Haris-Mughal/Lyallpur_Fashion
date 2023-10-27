@@ -1,14 +1,19 @@
 import React from "react";
-import AboutUs from "./AboutUs";
-import ExchangeAndReturn from "./ExchangeAndReturn";
-import PrivacyPolicy from "./PrivacyPolicy";
-
+// import StoreLocation from "./StoreLocation";
+import ContactUs from "./ContactUs";
+// import AboutUs from "./AboutUs";
+// import ExchangeAndReturn from "./ExchangeAndReturn";
+// import PrivacyPolicy from "./PrivacyPolicy";
+// import Carousel from "../../components/Carousel";
 export default function index() {
   return (
     <>
-      <AboutUs />
-      <ExchangeAndReturn />
-      <PrivacyPolicy />
+      {/* <Carousel /> */}
+      <ContactUs />
+      {/* <StoreLocation /> */}
+      {/* <AboutUs /> */}
+      {/* <ExchangeAndReturn /> */}
+      {/* <PrivacyPolicy /> */}
     </>
   );
 }
