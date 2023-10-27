@@ -3,7 +3,11 @@ import React from "react";
 import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import LocalShippingOutlinedIcon from "@mui/icons-material/LocalShippingOutlined";
+<<<<<<< HEAD
 import CustomTextFieldComponent from "../../shared/CustomTextFieldComponent";
+=======
+import CustumTextField from "../../shared/CustomTextField";
+>>>>>>> d2917e04fd6c3cd10630c902060c945f1bb3702a
 
 export default function Navbar() {
   return (
@@ -21,7 +25,11 @@ export default function Navbar() {
                       </a>
                     </div>
                     <div className="form-box" id="searchBox">
+<<<<<<< HEAD
                       <CustomTextFieldComponent />
+=======
+                      <CustumTextField />
+>>>>>>> d2917e04fd6c3cd10630c902060c945f1bb3702a
                     </div>
                   </div>
                   <div
