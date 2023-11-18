@@ -3,10 +3,8 @@ import { Routes, Route } from "react-router-dom";
 
 import { Layout } from "./Layout";
 import Home from "../Home";
-<<<<<<< HEAD
 import AboutUs from "../FooterComponents/AboutUs";
-=======
->>>>>>> c303197d03cbb617de42ee3e709e092fbe152dc3
+
 import RequireAuth from "./requireAuth";
 
 const AppRoutes = () => {
@@ -25,15 +23,6 @@ const AppRoutes = () => {
           }
         /> */}
         <Route index element={<Home />} />
-<<<<<<< HEAD
-        <Route path="/aboutus" element={<AboutUs />} />
-        {/* <Route path="/contactus" element={<ContactUs />} />
-        <Route path="/aboutus" element={<AboutUs />} />
-        <Route path="/aboutus" element={<AboutUs />} /> */}
-        {/* <Route path="patientOverview" element={<Home />} />
-        <Route path="patientOverview" element={<Home />} /> */}
-=======
->>>>>>> c303197d03cbb617de42ee3e709e092fbe152dc3
 
         {/* <Route element={<RequireAuth allowedRoles={["Admin", "Customer"]} />}>
           <Route index element={<Home />} />

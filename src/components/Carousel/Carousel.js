@@ -10,8 +10,32 @@ const SimpleSlider = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true, // Enable autoplay
+    autoplay: true,
     autoplaySpeed: 2000,
+    dots: true,
+    centerMode: true,
+    centerPadding: "0",
+    appendDots: (dots) => (
+      <div style={{ bottom: "10px", position: "absolute", width: "100%", textAlign: "center" }}>
+        <ul style={{ margin: "0", padding: "0", display: "inline-block" }}>{dots}</ul>
+      </div>
+    ),
+    customPaging: (i) => (
+      <div
+      className="custom-dot"
+        style={{
+          width: "10px",
+          height: "10px",
+          margin: "0 5px",
+          background: i === settings.currentSlide ? "white" : "rgba(169, 169, 169, 0.5)",
+          borderRadius: "50%",
+          transition: "background-color 0.3s",
+        }}
+      />
+    ),
+    beforeChange: (current, next) => {
+      settings.currentSlide = next;
+    },
   };
 
   return (
@@ -29,6 +53,6 @@ const SimpleSlider = () => {
       </Slider>
     </div>
   );
-}
+};
 
 export default SimpleSlider;

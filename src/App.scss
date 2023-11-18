@@ -26,33 +26,23 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-<<<<<<< HEAD
-
-=======
-    // padding-top: 100px;
->>>>>>> c303197d03cbb617de42ee3e709e092fbe152dc3
-}
 
 main {
     flex: 1 0 auto;
-<<<<<<< HEAD
     margin-top: 30vh;
 }
-@media (max-width: 576px) {
-    main {
-      padding-top: 1.7em; /* For small mobile screens */
-    }
-  }
-  
-  @media (max-width: 768px) {
-    main {
-      padding-top: 1.2em; /* For tablets */
-    }
-  }
-  
-  
-=======
-    margin-top: 16.4vh;
+// @media (max-width: 768px) {
 
+//   main {
+//     margin-top: 25vh;
+//   }
+// }
+// @media (max-width: 576px) {
+//     main {
+//       margin-top: 22vh;
+//     }
+//   }
+  
+ 
+  
 }
->>>>>>> c303197d03cbb617de42ee3e709e092fbe152dc3
