@@ -1,8 +1,8 @@
 import "./App.scss";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import FooterComponents from "./pages/FooterComponents";
-// import { Header } from "antd/es/layout/layout";
+import AppRoutes from "./pages/Routes/AppRoutes";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
@@ -10,11 +10,11 @@ function App() {
       <header>
         <Header />
       </header>
-
       <main>
-        <FooterComponents />
+        <Routes>
+          <Route path="/*" element={<AppRoutes />} />
+        </Routes>
       </main>
-
       <footer>
         <Footer />
       </footer>

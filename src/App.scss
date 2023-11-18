@@ -16,6 +16,7 @@
 @import "./scss/Footer";
 @import "./scss/Navbar";
 @import "./scss/SimpleSlider";
+@import "./scss/Categories";
 @import "./scss/ContactUs";
 @import "./scss/FabricGlossary";
 // @import "./scss/auth";
@@ -25,9 +26,23 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    padding-top: 100px;
+
 }
 
 main {
     flex: 1 0 auto;
+    margin-top: 30vh;
 }
+@media (max-width: 576px) {
+    main {
+      padding-top: 1.7em; /* For small mobile screens */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    main {
+      padding-top: 1.2em; /* For tablets */
+    }
+  }
+  
+  

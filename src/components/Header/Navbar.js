@@ -7,57 +7,24 @@ import CustumTextField from "../../shared/CustomTextField";
 
 export default function Navbar() {
   return (
-    <div className="header-area">
-      <div className="main-header ">
-        <div className="header-top ">
-          <div className="container-fluid">
-            <div className="row">
-              <div className="col-xl-12">
-                <div className="d-flex justify-content-between align-items-center flex-sm">
+<>
+         
+                <div className="d-flex justify-content-between align-items-center flex-sm" id="header-main">
                   <div className="header-info-left d-flex align-items-center">
                     <div className="logo">
-                      <a href="#">
-                        <img width={150} src="/assets/logo/Logo.png" />
-                      </a>
+                        <img className="logo-image" src="/assets/logo/Logo.png" />
                     </div>
                     <div className="form-box" id="searchBox">
                       <CustumTextField />
                     </div>
                   </div>
-                  <div
-                    className="header-info-right d-flex align-items-center"
-                    id="etc"
-                  >
-                    <ul id="trackCartPro">
-                      <li>
-                        <LocalShippingOutlinedIcon
-                          style={{ fontSize: "1.75em" }}
-                        />
-                      </li>
-                      <li>
-                        <ShoppingCartOutlinedIcon
-                          style={{ fontSize: "1.75em" }}
-                        />
-                      </li>
-                      <li className="shopping-card">
-                        <PersonOutlineOutlinedIcon
-                          style={{ fontSize: "1.75em" }}
-                        />
-                      </li>
-                      {/* <li className="signin">
-                        <a href="#" className="btn header-btn">
-                          Sign in
-                        </a>
-                      </li> */}
-                    </ul>
+                  <div id="icons">
+                    <LocalShippingOutlinedIcon style={{fontSize: "2rem"}}/>
+                    <ShoppingCartOutlinedIcon style={{fontSize: "2rem"}}/>
+                    <PersonOutlineOutlinedIcon style={{fontSize: "2rem"}}/>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <hr className="m-0 p-0" />
-    </div>
+      <hr className="m-0 p-0" style={{width: "100vw", backgroundColor: "grey", color: "grey"}} />
+      </>
   );
 }

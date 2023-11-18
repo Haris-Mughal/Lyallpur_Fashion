@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 // import { Link } from "react-router-dom";
 export default function Details() {
   return (
@@ -13,7 +14,6 @@ export default function Details() {
                     className="single-footer-caption mb-30"
                     id="logo_socialicons"
                   >
-                    {/* <div className="footer-logo mb-25"> */}
                     <div className="footer-logo">
                       <a href="#">
                         <img
@@ -140,19 +140,19 @@ export default function Details() {
                     <h5>CUSTOMER CARE</h5>
                     <ul>
                       <li>
-                        <a href="#">Exchanges &amp; Returns</a>
+                        <Link>Exchanges &amp; Returns</Link>
                       </li>
                       <li>
-                        <a href="#">FAQs</a>
+                        <Link>FAQs</Link>
                       </li>
                       <li>
-                        <a href="#">Contact Us</a>
+                        <Link>Contact Us</Link>
                       </li>
                       <li>
-                        <a href="#">Payments</a>
+                        <Link>Payments</Link>
                       </li>
                       <li>
-                        <a href="#">Track Your Order</a>
+                        <Link>Track Your Order</Link>
                       </li>
                     </ul>
                   </div>
@@ -164,19 +164,19 @@ export default function Details() {
                     <h5>INFORMATION</h5>
                     <ul>
                       <li>
-                        <a href="#">About Us</a>
+                        <Link to="/aboutus">About Us</Link>
                       </li>
                       <li>
-                        <a href="#">Privacy Policy</a>
+                        <Link>Privacy Policy</Link>
                       </li>
                       <li>
-                        <a href="#">Store Location</a>
+                        <Link>Store Locator</Link>
                       </li>
                       <li>
-                        <a href="#">Fabric Glossary</a>
+                        <Link>Fabric Glossary</Link>
                       </li>
                       <li>
-                        <a href="#">Blog</a>
+                        <Link>Blog</Link>
                       </li>
                     </ul>
                   </div>
