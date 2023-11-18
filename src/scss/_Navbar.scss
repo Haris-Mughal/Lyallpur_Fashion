@@ -21,11 +21,26 @@
   background-color: white;
   border: 1px solid black;
 
+<<<<<<< HEAD
+=======
+#trackCartPro {
+    display: flex;
+    li {
+        margin-left: 2rem;
+    }
+}
+.header-area {
+    width: 100vw;
+    top: 0;
+    z-index: 100000;
+    background-color: white;
+>>>>>>> c303197d03cbb617de42ee3e709e092fbe152dc3
 }
 .logo{
   width: 25%;
   height: 100%;
 
+<<<<<<< HEAD
 }
 .logo-image{
   width: 100%;
@@ -35,6 +50,11 @@
 .header-info-left{
   width: 70%;
   height: 100%;
+=======
+#topbar {
+    width: 100%;
+    background-color: white;
+>>>>>>> c303197d03cbb617de42ee3e709e092fbe152dc3
 }
 
 
