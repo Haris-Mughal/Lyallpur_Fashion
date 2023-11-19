@@ -1,25 +1,10 @@
+import React from "react";
 import "./App.scss";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import FooterComponents from "./pages/FooterComponents";
-// import { Header } from "antd/es/layout/layout";
+import "bootstrap/dist/js/bootstrap.bundle";
+import Routing from "./pages/Routing";
 
 function App() {
-  return (
-    <>
-      <header>
-        <Header />
-      </header>
-
-      <main>
-        <FooterComponents />
-      </main>
-
-      <footer>
-        <Footer />
-      </footer>
-    </>
-  );
+  return <Routing />;
 }
 
 export default App;

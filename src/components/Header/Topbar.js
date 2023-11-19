@@ -1,29 +1,38 @@
 import React from "react";
-// import { Link } from "react-router-dom";
-
-export default function Topbar() {
+import { userName } from "../../data/user";
+function Topbar() {
   return (
-    <ul className="nav justify-content-center" id="topbar">
-      <li className="nav-item">
-        <a href="#" className="nav-link active" aria-current="page">
-          HOME
-        </a>
-      </li>
-      <li className="nav-item">
-        <a href="#" className="nav-link">
-          NEW IN
-        </a>
-      </li>
-      <li className="nav-item">
-        <a href="#" className="nav-link">
-          MEN
-        </a>
-      </li>
-      <li className="nav-item">
-        <a href="#" className="nav-link">
-          WOMEN
-        </a>
-      </li>
-    </ul>
+    <div className="topbar bg-primary border">
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col">
+            <ul className="nav align-items-center justify-content-center text-dark" id="topbar">
+              <li className="nav-item">
+                <a href="#" className="nav-link active text-dark" aria-current="page">
+                  HOME
+                </a>
+              </li>
+              <li className="nav-item">
+                <a href="#" className="nav-link text-dark">
+                  NEW IN
+                </a>
+              </li>
+              <li className="nav-item">
+                <a href="#" className="nav-link text-dark">
+                  MEN
+                </a>
+              </li>
+              <li className="nav-item">
+                <a href="#" className="nav-link text-dark">
+                  WOMEN
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 }
+
+export default Topbar;

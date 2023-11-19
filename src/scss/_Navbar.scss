@@ -1,79 +1,77 @@
-form {
-        input {
-            margin: 0;
-        width: 100%;
-        padding: 15px;
-        border-width: .5px;
-        border-color: rgba(0, 0, 0, 0.352);
-        border-radius: 40px;
-    }
-}
-.signin {
-    a {
-        background-color: red;
-        color: white;
-        padding: 15px;
-        border-radius: 25px;
-        font-weight: bold;
-        border: 0;
-        text-decoration: none;
-    }
-    a:hover {
-        background-color: rgb(190, 1, 1);
-        color: rgba(255, 255, 255, 0.811);
-        padding: 15px;
-        border-radius: 25px;
-        font-weight: bold;
-        border: 0;
-        text-decoration: none;
-    }
-}
-#etc {
-    display: flex;
-    flex-direction: row;
-    ul {
-        list-style-type: none;
-        li {
-            a {
-                
-        text-decoration: none;
-        color: black;
-            }
-        }
-        
-    }
+#icons {
+  display: flex;
+  width: 30%;
+  gap: 5%;
+  padding-right: 2%;
+  justify-content: flex-end;
 }
 
 #searchBox {
-    display: flex;
-    align-items: center;
-    width: 40vw;
-    border: 0.5px solid gray;
-    border-radius: 7px;
+  display: flex;
+  align-items: center;
+  width: 65%;
+  border: 0.5px solid gray;
+  border-radius: 7px;
+}
+
+#header-main {
+  width: 100vw;
+  height: 20vh;
+  background-color: white;
+  border: 1px solid black;
 }
 
 
-#trackCartPro {
-    display: flex;
-    li {
-        margin-left: 2rem;
-    }
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  height: 100px;
 }
-.header-area {
-    width: 100vw;
-    position: fixed;
-    top: 0;
-    z-index: 100000;
-    background-color: white;
+
+.logo {
+  width: 25px;
+  height: 25px;
+}
+
+.logo-image {
+  width: 170px;
+  height: 100px;
+
+}
+
+.header-info-left {
+  width: 70%;
+  height: 100%;
 }
 
 #topbar {
-    width: 100%;
-    position: fixed;
-    z-index: 1000;
-    background-color: white;
+  width: 100%;
+  padding: 1em 0;
+  background-color: white;
+  height: 8vh;
+  max-height: 70px;
+  display: flex;
+  align-items: center;
 }
 
-
-
-
+@media screen and (max-width: 1020px) {
+ 
+  #header-main {
+    height: 15vh;
+  }
+}
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 30%;
+    height: 70%;
+  }
+}
+@media screen and (max-width: 520px) {
+  .logo {
+    width: 50%;
+  }
+ 
+}
