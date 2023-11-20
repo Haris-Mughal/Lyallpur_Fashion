@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ExchangeAndReturn() {
   return (
-    <div className="container py-5">
+    <div className="container">
       <div className="row">
         <div className="col">
           <h1 className="text-center mb-0">EXCHANGES &amp; RETURNS</h1>

@@ -1,12 +1,14 @@
-import React from "react";
-import Navbar from "./Navbar";
-// import Topbar from "./Topbar";
+import React from 'react'
+import Topbar from './Topbar'
+import Navbar from './Navbar'
 
-export default function index() {
+function Index() {
   return (
-    <>
-      <Navbar />
-      {/* <Topbar /> */}
-    </>
-  );
+    <header>
+        <Navbar/> 
+        <Topbar/>
+    </header>
+  )
 }
+
+export default Index

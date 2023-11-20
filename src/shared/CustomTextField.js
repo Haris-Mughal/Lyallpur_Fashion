@@ -25,6 +25,23 @@ const CustomTextField = styled(TextField)(({ theme }) => ({
     width: "100%",
   },
   width: "100%",
+
+  // '@media (max-width: 600px)': {
+  //   "& input": {
+  //     fontSize: '14px',
+  //     padding: "0.1em 0.5em ",
+  //     height: "1em",
+  //   },
+  // },
+
+  // // Add media query for larger screens
+  // '@media (min-width: 1000px)': {
+  //   "& input": {
+  //     fontSize: '18px',
+  //     padding: "0.15em 0.7em ",
+  //     height: "1.5em",
+  //   },
+  // },
 }));
 
 const CustomTextFieldComponent = (props) => {

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function TrackYourOrder() {
   return (
-    <div className="py-5">
+    <div className="">
       <h1 className="text-center mb-5">Track Your Order</h1>
       <div className="container">
         <div className="row justify-content-center align-items-center">
