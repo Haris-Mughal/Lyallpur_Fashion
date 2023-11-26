@@ -1,0 +1,102 @@
+@import "./scss/bootstrap";
+@import "./scss/Footer";
+@import "./scss/Navbar";
+@import "./scss/Topbar";
+@import "./scss/SimpleSlider";
+@import "./scss/Categories";
+@import "./scss/ContactUs";
+@import "./scss/FabricGlossary";
+@import "./scss/Filtering";
+@import "./scss/_ProductCard.scss";
+@import "./scss/_HomeProducts.scss";
+@import "./scss/WhatsAppIcon.scss";
+// Variables
+$font-family: "Montserrat", sans-serif;
+$primary-color: #000000;
+$border-color: #f8f8f8;
+$button-background: #000000;
+$button-color: #fff;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+// body {
+//   overflow-x: hidden;
+// }
+// Body
+body {
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+  text-size-adjust: 100%;
+  --wrapper-mw: 1420px;
+  --font-family-1: #{$font-family};
+  --font-family-2: #{$font-family};
+  --font-family-3: #{$font-family};
+  --font-body-family: #{$font-family};
+  --font-heading-family: #{$font-family};
+  --text-color: #000000;
+  --border-color: #{$border-color};
+  --button-background: #{$button-background};
+  --button-color: #{$button-color};
+  // Add other variables...
+
+  // Rest of your styles...
+  margin: 0;
+  border: 0;
+  vertical-align: baseline;
+  font: inherit;
+  font-size: 100%;
+  margin-top: var(--ts-gutter-y);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex: 0 0 auto;
+  width: 100%;
+  border-bottom: solid 1px var(--border-color);
+}
+
+// Button styling
+button {
+  background: var(--button-background);
+  color: var(--button-color);
+  &:hover {
+    // Add hover styles...
+  }
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main {
+  flex: 1 0 auto;
+  top: 0;
+  margin-top: 152px;
+}
+.card {
+  border: 0 !important;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  main {
+    flex: 1 0 auto;
+    margin-top: 30vh;
+  }
+  // @media (max-width: 768px) {
+
+  //   main {
+  //     margin-top: 25vh;
+  //   }
+  // }
+  // @media (max-width: 576px) {
+  //     main {
+  //       margin-top: 22vh;
+  //     }
+  //   }
+}

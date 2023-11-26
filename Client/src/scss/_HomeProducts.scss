@@ -1,0 +1,19 @@
+.filter-summary {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .filter-range {
+    position: relative;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .filter-line {
+    height: 20px;
+    width: 1px;
+    background-color: #000;
+    margin-left: 10px; 
+  }
+  
