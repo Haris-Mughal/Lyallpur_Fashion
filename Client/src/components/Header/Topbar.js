@@ -1,16 +1,23 @@
 import React from "react";
-import { userName } from "../../data/user";
+import { Link } from "react-router-dom";
 function Topbar() {
   return (
     <div className="topbar bg-primary border">
       <div className="container-fluid">
         <div className="row">
           <div className="col">
-            <ul className="nav align-items-center justify-content-center text-dark" id="topbar">
+            <ul
+              className="nav align-items-center justify-content-center text-dark"
+              id="topbar"
+            >
               <li className="nav-item">
-                <a href="#" className="nav-link active text-dark" aria-current="page">
+                <Link
+                  to="/"
+                  className="nav-link active text-dark"
+                  aria-current="page"
+                >
                   HOME
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <a href="#" className="nav-link text-dark">
@@ -18,9 +25,13 @@ function Topbar() {
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#" className="nav-link text-dark">
+                <Link
+                  to="/men"
+                  className="nav-link  text-dark"
+                  aria-current="page"
+                >
                   MEN
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <a href="#" className="nav-link text-dark">

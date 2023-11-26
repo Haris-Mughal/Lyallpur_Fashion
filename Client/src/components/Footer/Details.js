@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import WhatsAppIcon from "../../shared/WhatsAppIcon";
 // import { Link } from "react-router-dom";
 export default function Details() {
   return (
@@ -179,6 +180,7 @@ export default function Details() {
                         <Link>Blog</Link>
                       </li>
                     </ul>
+                    <WhatsAppIcon />
                   </div>
                 </div>
               </div>

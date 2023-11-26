@@ -5,7 +5,10 @@
   padding-right: 2%;
   justify-content: flex-end;
 }
-
+a {
+  color: black;
+  text-decoration: none;
+}
 #searchBox {
   display: flex;
   align-items: center;
@@ -20,8 +23,6 @@
   background-color: white;
   border: 1px solid black;
 }
-
-
 
 .navbar {
   position: fixed;
@@ -39,7 +40,6 @@
 .logo-image {
   width: 170px;
   height: 100px;
-
 }
 
 .header-info-left {
@@ -58,7 +58,6 @@
 }
 
 @media screen and (max-width: 1020px) {
- 
   #header-main {
     height: 15vh;
   }
@@ -73,5 +72,4 @@
   .logo {
     width: 50%;
   }
- 
 }
